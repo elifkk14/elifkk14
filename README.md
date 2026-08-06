@@ -37,7 +37,7 @@ Kubernetes · Docker · PostgreSQL (HA, ProxySQL) · MySQL · REST APIs · Git �
 |---|---|
 | **Multimodal Alzheimer's Diagnosis System** | Deep learning on PET + MRI brain imaging for early detection. 1st place, Genç Beyinler Yeni Fikirler 2026. Development ongoing. |
 | [product-analysis-ai](https://github.com/elifkk14/product-analysis-ai) | Self-trained model that analyses product ingredients, flags harmful content and explains why — text or barcode/QR input. |
-| [spades-server](https://github.com/elifkk14/spades-server) | Real-time online Spades: rooms, bidding, trump logic, server-authoritative turn engine over WebSockets. |
+| [spades-server](https://github.com/elifkk14/spades-server) — **[live demo](https://spades-server.vercel.app)** | Real-time online Spades: rooms, bidding, trump logic, server-authoritative turn engine over WebSockets. |
 | [smartform-ai](https://github.com/elifkk14/smartform-ai) | Form analyser with an integrated AI model. |
 | [cargo-delivery-system](https://github.com/elifkk14/cargo-delivery-system) | Route optimisation built on graph algorithms — Java. |
 
