@@ -3,18 +3,17 @@
 **AI/ML Engineer — deep learning for medical imaging, with backend and platform experience.**
 Computer Engineering graduate (TED University, 2026) · Ankara, Türkiye
 
-I work on AI-assisted clinical decision support: building end-to-end neuroimaging
-pipelines and training 3D deep learning models on brain imaging data. My graduation
-project — a multimodal Alzheimer's diagnosis system developed with the Godetya R&D team
-and in collaboration with neurology and nuclear medicine physicians — won
-**1st place at Genç Beyinler Yeni Fikirler 2026** (TED University & Turkish Informatics
-Association).
+I work on deep learning for brain imaging: building MRI and PET data pipelines and
+training 3D deep learning models. My graduation project — multimodal Alzheimer's analysis
+on amyloid PET and MRI, which I continue as a volunteer research project in collaboration
+with neurology and nuclear medicine physicians — won **1st place at Genç Beyinler Yeni
+Fikirler 2026** (Turkish Informatics Association, Ankara Branch).
 
-Alongside the modelling work I've done real infrastructure: a PostgreSQL
-high-availability cluster on Kubernetes with ProxySQL failover, and containerised
-Java/Spring services.
+Alongside the modelling work I've done real infrastructure: an automated PostgreSQL
+high-availability cluster (WAL streaming replication) on Kubernetes, integrated with the
+company's failover tooling — cutting failover from 15–30 minutes to under 10 seconds.
 
-🔭 **Currently** — AI/ML Project Contributor (R&D) at Godetya, on PET–MR neuroimaging pipelines
+🔭 **Currently** — volunteer research on amyloid PET + MRI deep learning for Alzheimer's analysis
 🌱 **Learning** — LLMs, retrieval-augmented generation (RAG), prompt engineering
 💬 **Ask me about** — 3D medical image processing, PyTorch Lightning, MONAI, Kubernetes
 📫 **Reach me** — elif.konak@yahoo.com.tr
@@ -27,7 +26,7 @@ Java/Spring services.
 PyTorch · PyTorch Lightning · MONAI · NumPy · Pandas · Nibabel · MATLAB/SPM
 
 **Backend, Infrastructure & MLOps** — Python · Java/Spring · C · SQL ·
-Kubernetes · Docker · PostgreSQL (HA, ProxySQL) · MySQL · REST APIs · Git · Linux
+Kubernetes · Docker · PostgreSQL (HA, streaming replication) · MySQL · REST APIs · Git · Linux
 
 ---
 
@@ -35,8 +34,8 @@ Kubernetes · Docker · PostgreSQL (HA, ProxySQL) · MySQL · REST APIs · Git �
 
 | Project | What it is |
 |---|---|
-| **Multimodal Alzheimer's Diagnosis System** | Deep learning on PET + MRI brain imaging for early detection. 1st place, Genç Beyinler Yeni Fikirler 2026. Development ongoing. |
-| [product-analysis-ai](https://github.com/elifkk14/product-analysis-ai) | Self-trained model that analyses product ingredients, flags harmful content and explains why — text or barcode/QR input. |
+| [**Multimodal Alzheimer's Analysis**](https://github.com/elifkk14/multimodal-alzheimers-analysis) | Deep learning on amyloid PET + MRI brain imaging. 1st place, Genç Beyinler Yeni Fikirler 2026. Development ongoing. |
+| [product-analysis-ai](https://github.com/elifkk14/product-analysis-ai) | Ingredient-safety analyser on a local Mistral LLM (Ollama) with Pydantic-validated JSON output — text or barcode/QR input. |
 | [spades-server](https://github.com/elifkk14/spades-server) — **[live demo](https://spades-server.vercel.app)** | Real-time online Spades: rooms, bidding, trump logic, server-authoritative turn engine over WebSockets. |
 | [smartform-ai](https://github.com/elifkk14/smartform-ai) | Form analyser with an integrated AI model. |
 | [cargo-delivery-system](https://github.com/elifkk14/cargo-delivery-system) | Route optimisation built on graph algorithms — Java. |
